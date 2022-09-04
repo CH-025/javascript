@@ -1,0 +1,131 @@
+@charset "UTF-8" ;
+@font-face {
+    font-family:'droid' ;
+    src: url('IDroid.otf') format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(49, 241, 91);
+    margin: 0px;
+}
+header {
+    background-image: linear-gradient(to bottom, rgb(0, 255, 106) ,rgba(2, 34, 13, 0.842));
+    box-shadow: 0px 3px 10px black;
+    padding: 10px;
+    margin: 1px
+}
+
+#inicio {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 3px 10px black;
+    
+}
+ 
+.pp {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 3px 10px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    padding: 1px;
+    margin: auto;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 3px 10px black;
+    padding: 2px;
+    margin: 10px ;   
+}
+a:hover {
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px ;
+    padding: 25px;
+    margin: auto;
+    width: 900px;
+}
+
+#meio {
+    font-family: 'droid';
+}
+
+.androids {
+    margin: 18px;
+    padding: 5px;
+}
+
+.segundo {
+    background-image: linear-gradient(to right, rgba(143, 249, 161, 0.603), rgb(255 255 255));
+    font-family: 'droid';
+    padding: 1px;
+}
+
+.irinaa {
+    margin: 18px;
+    padding: 1px;
+}
+
+.drooid {
+    margin: 25px 0px 25px 260px;
+    padding: 1px;
+}
+
+article {
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.ultimo {
+    background-color: rgb(0 255 106 / 28%);
+    padding: 5px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    width: 890px;
+}
+
+#video {
+    background-color: darkgreen;
+    margin: 10px;
+    width: 890px;
+}
+
+
+#primeiro {
+    background-color: rgba(3, 143, 26, 0.747);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    margin: 0px;
+    width: 890px;
+}
+
+ul {
+    display: block;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: rgb(2, 53, 2);
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    margin: 8px;
+    padding: 4px;
+}
+
+p {
+    font-weight: bolder;
+}

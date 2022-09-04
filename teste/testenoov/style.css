@@ -1,0 +1,74 @@
+@charset "UTF-8" ;
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-image: linear-gradient(to right, #22c7f5d2, #1a2adbd3);
+}
+
+header {
+    background-color: white;
+    border-radius: 0px 10px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+    margin: auto;
+    width: 600px;
+}
+.t {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 17px 0px 40px 0px;
+    width: 169px;
+}
+
+.redes{
+    background-color: bisque;
+    text-decoration: none;
+    padding: 8px;
+    margin: 240px;
+    color: black;
+}
+
+.redes:hover {
+    text-decoration: underline;
+}
+
+main {
+ background-color: white;
+}
+
+.meio {
+    text-align: justify;
+}
+
+aside {
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+#gamer {
+    border-style: inset;
+    border-color: blue;
+    border-width: 5px;
+    width: 500px;
+    margin: 10px;
+}
+
+footer {
+
+}

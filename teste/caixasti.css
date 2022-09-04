@@ -1,0 +1,97 @@
+@charset "UTF-8" ;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,  #1E97FA, #0D18E0);
+    margin: 0%;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 5px 10px 10px 5px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    background-color: #1E97FA;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #1E97FA;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+}
+
+nav > a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+     background-color: white;
+     padding: 10px;
+     margin: 5px 10px 10px 5px;
+     border-radius: 10px;
+ }
+
+#assuntos {
+    background-color: #1E97FA;
+    font-weight: bold; 
+    border-radius: 10px;
+    width: 230px;
+}
+
+#assuntos > p {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+#noticias {
+    background-color: #f10bf581;
+    border-radius: 12px;
+    padding: 1px 0px 10px 10px;
+    margin: 1px 0px 1px 2px;
+}
+
+ h2 {
+    background-color: #8a28fad3;
+    padding: 10px 0px 10px 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 220px;
+}
+
+article > aside{
+    background-color: black;
+    color: white;
+    font-weight: normal;
+    border-radius: 5px;
+    padding: 5px 0px 5px 10px;
+    margin: 5px 0px 5px 10px;
+    width: 260px;
+    
+}
+
+footer {
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 1px;
+     font-weight: bold;
+ }
